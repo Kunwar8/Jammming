@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import SearchBar from '../SearchBar/SearchBar';
 
 class App extends React.Component {
   render() {
