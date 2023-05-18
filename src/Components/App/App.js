@@ -2,8 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import SearchBar from '../SearchBar/SearchBar';
+import { getValue } from '@testing-library/user-event/dist/utils';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      property: value,
+    };
+  }
   render() {
     return (<div>
       <h1>Ja<span className="highlight">mmm</span>ing</h1>
